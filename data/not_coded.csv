@@ -1,0 +1,25 @@
+bibtex_key,reason_not_coded
+rudin2019stop,position paper; motivation
+lou2012gam,classical GAM definition; background
+ribeiro2016lime,post-hoc method definition
+lundberg2017shap,post-hoc method definition
+sundararajan2017ig,post-hoc method definition
+shrikumar2017deeplift,post-hoc method definition
+selvaraju2017gradcam,post-hoc method definition
+ribeiro2018anchors,post-hoc method definition
+koh2017influence,post-hoc method definition
+mothilal2020dice,post-hoc method definition
+kim2018tcav,post-hoc method definition
+ross2017right,training technique cited as defense; no security evaluation of a built-in explanation
+yeh2019infidelity,evaluation metric; background
+hedstrom2023quantus,evaluation toolkit; background
+nguyen2025privacy,privacy survey; related work only
+saltzer1975protection,classical security background
+lampson1974protection,classical security background
+anderson1972planning,classical security background
+bellare2006games,classical security background
+cover2006elements,information theory background
+dwork2006calibrating,differential privacy background
+breiman2001two,Rashomon set background
+tramer2020adaptive,evaluation methodology background
+carlini2019evaluating,evaluation methodology background

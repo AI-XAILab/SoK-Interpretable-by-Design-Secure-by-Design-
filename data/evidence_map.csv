@@ -1,0 +1,67 @@
+bibtex_key,short_name,year,family,group,evidence_type,stages,properties_direct,properties_adjacent,added_in_update,takeaway
+alvarez2018senn,Alvarez-Melis & Jaakkola (SENN),2018,concept,built-in,architecture,-,,P2;P5,0,"Stability of relevances is a design goal, not a guarantee."
+zheng2019sem,Zheng et al.,2019,concept,built-in,direct security,input,P2,P1,0,SENN concepts change under attack while relevances and predictions stay stable.
+koh2020cbm,Koh et al. (CBM),2020,concept,built-in,architecture,edit,,P4,0,Concepts are predictive state and a test-time edit interface.
+zarlenga2022cem,Espinosa Zarlenga et al. (CEM),2022,concept,built-in,architecture,edit,,P3;P4,0,Concept embeddings trade bottleneck strictness for accuracy.
+yuksekgonul2023pcbm,Yuksekgonul et al. (PCBM),2023,concept,built-in,architecture,edit,,P3;P4,0,Residual channel bypasses named concepts; global weight edits are model updates.
+oikarinen2023lfcbm,Oikarinen et al. (LF-CBM),2023,concept,built-in,architecture,training,,P3,0,Language-model-generated concept sets move concept meaning into the training pipeline.
+chauhan2023interactive,Chauhan et al.,2023,concept,built-in,direct reliability,edit;human loop,P4,,0,Learned query policy decides which concepts humans see; part of the attack surface.
+shin2023intervention,Shin et al.,2023,concept,built-in,direct reliability,edit,P4,P5,0,"Intervention benefit depends on selection criterion, granularity and training mode."
+steinmann2024intervene,Steinmann et al.,2024,concept,built-in,direct reliability,edit,P4,,0,Remembered interventions become persistent state replayed on new inputs.
+margeloiu2021cbm,Margeloiu et al.,2021,concept,built-in,direct reliability,-,P3,,0,Concept units need not attend to concept regions.
+mahinpei2021promises,Mahinpei et al.,2021,concept,built-in,direct reliability,-,P3,P6,0,Soft concepts leak task information beyond their names.
+havasi2022leakage,Havasi et al.,2022,concept,built-in,mitigation,-,P3,P4,0,Side channels and autoregressive predictors reduce leakage.
+sinha2023robust,Sinha et al.,2023,concept,built-in,direct security,input,P1;P2,,0,Concept predictions can be attacked; adversarial training helps.
+rasheed2024concept,Rasheed et al.,2024,concept,built-in,direct security,input,P1,,0,Bottlenecks do not imply adversarial robustness.
+park2025noisycbm,Park et al.,2025,concept,built-in,direct reliability,training,P3,P4,0,"Annotation noise harms predictions, concepts and interventions together."
+lai2026cat,Lai et al. (CAT),2026,concept,built-in,direct security,training,P1;P2,P5,0,Concept-level backdoors yield attacker-chosen concept patterns and labels.
+lai2024conceptguard,Lai et al. (ConceptGuard),2024,concept,built-in,certified defense,training,P1,,0,Concept partitioning and voting certify against small concept-level triggers.
+enouen2026debug,Enouen & Galhotra,2026,concept,built-in,mitigation,training,P3,P4,0,Shortcut concepts may require removal and retraining.
+sridhar2026liability,Sridhar,2026,concept,built-in,direct security,input,P1;P2,,1,Concept-layer attacks flip predictions; stability-regularized training raises attack cost.
+bogani2026decision,Bogani et al.,2026,concept,built-in,direct reliability,human loop,P4,P5,1,User study: many users never intervene; gains depend on concept clarity.
+chen2019protopnet,Chen et al. (ProtoPNet),2019,prototype,built-in,architecture,-,,P3,0,Prototype similarity is exposed as the reason for a decision.
+nauta2021prototree,Nauta et al. (ProtoTree),2021,prototype,built-in,architecture,-,,P3,0,Prototypes as routing nodes of a soft decision tree.
+nauta2023pipnet,Nauta et al. (PIP-Net),2023,prototype,built-in,mitigation,-,P3,,0,Self-supervised alignment of prototypes with human perception.
+hoffmann2021looks,Hoffmann et al.,2021,prototype,built-in,direct security,input,P2,P1,0,Imperceptible changes and JPEG compression alter prototype matches.
+huang2023prototype,Huang et al.,2023,prototype,built-in,direct reliability,input,P5,P2,0,Prototype consistency and stability are imperfect.
+sacha2024misalignment,Sacha et al.,2024,prototype,built-in,direct reliability,-,P3,,0,Shown patch can omit pixels that drive the similarity.
+baniecki2025birds,Baniecki & Biecek,2025,prototype,built-in,direct security,input;training,P1;P2,P5,0,Adversarial and backdoor manipulation of prototype models.
+agarwal2021nam,Agarwal et al. (NAM),2021,additive,built-in,architecture,-,,P5;P6,0,Prediction decomposes into per-feature shape functions.
+yang2021gaminet,Yang et al. (GAMI-Net),2021,additive,built-in,architecture,-,,P5,0,Sparse pairwise interactions under heredity constraints.
+chang2022nodegam,Chang et al. (NODE-GAM),2022,additive,built-in,architecture,-,,P5,0,Differentiable oblivious trees as shape functions.
+chang2021gams,Chang et al.,2021,additive,built-in,direct reliability,model,P5,P3,0,"Equally accurate GAMs show different, sometimes contradictory effects."
+zhang2024additive,Zhang et al.,2024,additive,built-in,direct reliability,model,P3;P5,,0,Additive components are non-identifiable with correlated features.
+chen2026mlnam,Chen et al. (ML-NAM),2026,additive,built-in,robustness to noise,training,,P1,0,"Statistical, not adversarial, robustness."
+bassan2026provably,Bassan et al.,2026,additive,built-in,verification,-,P5,,0,Additivity enables provably minimal sufficient explanations.
+yamaguchi2025xbm,Yamaguchi & Nishida (XBM),2025,xbm,built-in,architecture,-,,P3;P4,0,Generated text becomes the prediction bottleneck.
+sun2025cbllm,Sun et al. (CB-LLM),2025,xbm,built-in,architecture,-,,P3;P4,1,Concept bottleneck inside a language model; concepts can be steered.
+ghorbani2019fragile,Ghorbani et al.,2019,posthoc,boundary,boundary,input,P2,,0,Small input changes alter attribution maps.
+dombrowski2019geometry,Dombrowski et al.,2019,posthoc,boundary,boundary,input,P2,,0,Fragility traced to decision-surface curvature; smoothing helps.
+heo2019fooling,Heo et al.,2019,posthoc,boundary,boundary,model,P2,P3,0,Models can be fine-tuned to manipulate gradient explanations.
+slack2020fooling,Slack et al.,2020,posthoc,boundary,boundary,model,P2;P3,,0,Scaffolding detects LIME/SHAP queries and answers innocuously.
+zhang2020underfire,Zhang et al.,2020,posthoc,boundary,boundary,input,P2,,0,Interpretable deep-learning systems are manipulable.
+anders2020offmanifold,Anders et al.,2020,posthoc,boundary,boundary,model,P3;P5,,0,Explanations can look fair while predictions discriminate.
+dimanov2020conceal,Dimanov et al.,2020,posthoc,boundary,boundary,model,P3,P5,0,Reliance on a sensitive attribute can be concealed from several explainers.
+aivodji2019fairwashing,Aivodji et al.,2019,posthoc,boundary,boundary,model,P3;P5,,0,Interpretable surrogates can rationalize unfair black boxes.
+noppel2023backdoor,Noppel et al.,2023,posthoc,boundary,boundary,training,P1;P2,,0,Explanation-aware backdoors couple malicious output with benign explanation.
+adebayo2018sanity,Adebayo et al.,2018,posthoc,boundary,boundary,-,P3,P5,0,Sanity checks by parameter and label randomization.
+gan2022stable,Gan et al.,2022,posthoc,boundary,boundary,input,P5,P2,0,Framework for attribution instability.
+tramer2016stealing,Tramer et al.,2016,privacy,boundary,boundary,API,P6,,0,Equation-solving extraction of models and trees through prediction APIs.
+milli2019reconstruction,Milli et al.,2019,privacy,boundary,boundary,API,P6,,0,Gradient explanations enable reconstruction with few queries.
+shokri2021privacy,Shokri et al.,2021,privacy,boundary,boundary,API,P6,,0,Explanations enable membership inference.
+ma2024membership,Ma et al.,2024,privacy,boundary,boundary,API,P6,,0,Explanation-guided sampling strengthens label-only membership inference.
+duddu2022sensitive,Duddu & Boutet,2022,privacy,boundary,boundary,API,P6,,0,Sensitive attributes inferred from explanations.
+goethals2023linkage,Goethals et al.,2023,privacy,boundary,boundary,API,P6,,0,Counterfactual explanations enable linkage attacks.
+wang2022dualcf,Wang et al. (DualCF),2022,privacy,boundary,boundary,API,P6,,0,Counterfactuals enable query-efficient extraction.
+patel2022dp,Patel et al.,2022,privacy,boundary,boundary,API,P6,P5,0,Differentially private explanations.
+an2024counterfactual,An & Cao,2024,privacy,boundary,boundary,API,P6,,0,Client-side counterfactual generation.
+benhmida2026deepleak,Ben Hmida et al. (DeepLeak),2026,privacy,boundary,boundary,API,P6,,1,Default post-hoc explainers leak more membership information than reported; empirical hardening.
+noppel2024sok,Noppel & Wressnegger,2024,secondary,secondary,secondary,-,,,0,Seed: SoK of explainable ML in adversarial environments.
+baniecki2024survey,Baniecki & Biecek,2024,secondary,secondary,secondary,-,,,0,Seed: taxonomy of attacks on and defenses for explanations.
+vadillo2025survey,Vadillo et al.,2025,secondary,secondary,secondary,-,,,0,Seed: adversarial XAI including the human assessor.
+ilyas2026intrinsic,Ilyas et al.,2026,secondary,secondary,secondary,-,,,0,Seed: survey of intrinsically interpretable tabular models.
+ji2025sinnsurvey,Ji et al.,2025,secondary,secondary,secondary,-,,,0,Seed: survey of self-interpretable neural networks.
+dimarino2025antehoc,Di Marino et al.,2025,secondary,secondary,secondary,-,,,0,Seed: survey of ante-hoc interpretable models.
+poeta2025conceptsurvey,Poeta et al.,2025,secondary,secondary,secondary,-,,,0,Comparison: survey of concept-based XAI.
+knab2026cbmsurvey,Knab et al.,2026,secondary,secondary,secondary,-,,,0,Comparison: survey and roadmap of CBMs.
+sinha2025risks,Sinha & Zhang,2025,secondary,secondary,secondary,-,,,1,Comparison: survey of risks and limitations of concept-based models.

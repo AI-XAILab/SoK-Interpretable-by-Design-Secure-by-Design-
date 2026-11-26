@@ -1,0 +1,7 @@
+family,label,input,poisoning,semantic,edit,privacy,verification
+concept,Concept / SENN,full,full,full,full,partial,full
+prototype,Prototype,full,full,full,none,none,partial
+additive,Additive,partial,none,full,none,none,full
+xbm,Explanation bottleneck,none,none,partial,partial,none,none
+posthoc,Post-hoc boundary,full,full,full,none,partial,partial
+privacy,Privacy boundary,none,none,partial,none,full,partial

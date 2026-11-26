@@ -1,0 +1,18 @@
+Ex1 clean logit -0.66  p=0.341
+Ex1 after osteophyte:=1 logit 0.48  p=0.618  delta=1.14
+  concept 0: flip needs delta >= 0.275 (feasible: True)
+  concept 1: flip needs delta >= 0.347 (feasible: True)
+  concept 2: flip needs delta >= 0.825 (feasible: False)
+  concept 3: flip needs delta >= 1.320 (feasible: False)
+Ex1 recovered (W,b): [ 2.4  1.9  0.8  0.5 -2.6]
+Ex1 population: negative rate 0.712; flippable by one edit 1.000; by osteophyte edit 0.924
+  memory radius 0.1: 0.0121 of population in neighbourhood, 1.000 of those flipped
+  memory radius 0.2: 0.1381 of population in neighbourhood, 0.940 of those flipped
+Ex2 corr(age,hist)=0.998  mean|dlogit|=0.0395  max|dlogit|=0.233  decision agreement=0.9760
+    bound L*E|U-muU| = 0.0398 (L=0.05)
+    displayed age effect range: original 2.45, fairwashed 0.00
+    displayed hist slope original 0.030, fairwashed -0.020
+    accuracy vs labels sampled from f: original 0.6215 fairwashed 0.6214
+Ex3 eps=0.00 -> TV = 0.00 -> max auditor advantage 0.00
+Ex3 eps=0.05 -> TV = 0.05 -> max auditor advantage 0.05
+Ex3 eps=0.20 -> TV = 0.20 -> max auditor advantage 0.20
