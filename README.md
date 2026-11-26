@@ -1,4 +1,4 @@
-# Artifact: SoK — Interpretable by Design, Secure by Design?
+#  SoK — Interpretable by Design, Secure by Design?
 
 Artifact for the IEEE EuroS&P 2027 submission *"SoK: Interpretable by Design, Secure by Design? Security Properties of Models That Explain Themselves"*.
 
